@@ -1,0 +1,76 @@
+.time-picker {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+.un-available {
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  color: #9393aa;
+}
+.start-time {
+  width: 100%;
+  background-color: #ecf2ff;
+  border: none;
+  border-radius: 100px;
+  padding: 8px 10px;
+}
+.time-day {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.day-name {
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  width: 10px;
+}
+.maindiv_day {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  margin: 15px 0px;
+}
+/* Apply custom styles for the time picker */
+.time-day::-webkit-calendar-picker-indicator {
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.drop-icon {
+  font-size: 12px;
+}
+
+/* Set the Font Awesome icon for the time picker */
+.time-day::-webkit-calendar-picker-indicator:before {
+  content: "^"; /* The Unicode for the drop-down icon from Font Awesome */
+  font-family: "Font Awesome 6 Free"; /* Make sure to specify the correct Font Awesome font family */
+}
+
+/* edit slot style star */
+.emergency-calls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.eme_label {
+  font-family: Mulish;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+}
+.edit_time_slot_main {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.map_main_div {
+  display: flex;
+  flex-direction: column;
+}
+/* end */
